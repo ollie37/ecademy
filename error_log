@@ -1,0 +1,15 @@
+[12-May-2023 12:34:19 America/New_York] PHP Warning:  openssl_encrypt() expects at least 3 parameters, 1 given in /home/akinrwim/rasta.devchap.com/eacademy/sign.php on line 20
+[12-May-2023 12:36:30 America/New_York] PHP Warning:  password_hash() expects at least 2 parameters, 1 given in /home/akinrwim/rasta.devchap.com/eacademy/sign.php on line 20
+[12-May-2023 12:58:02 America/New_York] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in /home/akinrwim/rasta.devchap.com/eacademy/sign.php on line 20
+[12-May-2023 18:50:17 America/New_York] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/akinrwim/rasta.devchap.com/eacademy/sign.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/akinrwim/rasta.devchap.com/eacademy/sign.php on line 20
+[12-May-2023 19:02:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function encrypt() in /home/akinrwim/rasta.devchap.com/eacademy/sign.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/akinrwim/rasta.devchap.com/eacademy/sign.php on line 20
+[12-May-2023 19:05:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function encrypt() in /home/akinrwim/rasta.devchap.com/eacademy/sign.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/akinrwim/rasta.devchap.com/eacademy/sign.php on line 20
